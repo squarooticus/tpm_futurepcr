@@ -7,7 +7,8 @@ setup(name="tpm_futurepcr",
       author_email="grawity@gmail.com",
       license="MIT",
       packages=["tpm_futurepcr"],
-      install_requires=["signify"],
+      install_requires=["signify",
+                        "oscrypto @ git+https://github.com/wbond/oscrypto.git@1547f535001ba568b239b8797465536759c742a3"],
       entry_points={
           "console_scripts": [
               "tpm_futurepcr = tpm_futurepcr:main",

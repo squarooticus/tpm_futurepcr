@@ -1,1 +1,2 @@
 signify
+git+https://github.com/wbond/oscrypto.git@d5f3437
